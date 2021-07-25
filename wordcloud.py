@@ -18,6 +18,15 @@ numbers = list ()
 print ("PROYECTO:")
 print ("NUBE DE PALABRAS CON ETIQUETAS DE USUARIOS EN STACK OVERFLOW ESPAÑOL")
 print ("*AUSTIN ADRIAN SALGUERO ZAMBRANO")
+class user:
+    def _init_(self, join, npag, lbls, nmbrs, labels, numbers):
+        self.join = join
+        self.npag = npag
+        self.lbls = lbls
+        self.nmbrs = nmbrs
+        self.labels = labels
+        self.numbers = numbers
+    
 id = input("\n\nDigite el ID del usuario para mostrar la nube de palabras: \n")
 print("\n")
 id = id.strip()
@@ -106,8 +115,3 @@ else:
             plt.axis ("off")
             plt.show ()
             plt.close ()
-#[R]: Significa que se recomienda la refactorización del código.
-#[C]: Significa que en el código hubo violación de estilos.
-#[W]: Es una alarma por un problema menor.
-#[E]: Significa mensaje de error o un potencial bug.
-#[F]: Indica un error grave, bloqueo para análisis futuros
