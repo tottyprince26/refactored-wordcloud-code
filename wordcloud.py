@@ -18,15 +18,6 @@ numbers = list ()
 print ("PROYECTO:")
 print ("NUBE DE PALABRAS CON ETIQUETAS DE USUARIOS EN STACK OVERFLOW ESPAÑOL")
 print ("*AUSTIN ADRIAN SALGUERO ZAMBRANO")
-class user:
-    def _init_(self, join, npag, lbls, nmbrs, labels, numbers):
-        self.join = join
-        self.npag = npag
-        self.lbls = lbls
-        self.nmbrs = nmbrs
-        self.labels = labels
-        self.numbers = numbers
-    
 id = input("\n\nDigite el ID del usuario para mostrar la nube de palabras: \n")
 print("\n")
 id = id.strip()
