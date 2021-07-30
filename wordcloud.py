@@ -16,13 +16,12 @@ nmbrs = list ()
 labels = list ()
 numbers = list ()
 class user:
-  def _init_(self, join, npag, lbls, nmbrs, labels, numbers):
-    self.join = join
-    self.npag = npag
-    self.lbls = lbls
-    self.nmbrs = nmbrs
-    self.labels = labels 
-    self.numbers = numbers 
+    join = join
+    npag = npag
+    lbls = lbls
+    nmbrs = nmbrs
+    labels = labels 
+    numbers = numbers 
 print ("PROYECTO:")
 print ("NUBE DE PALABRAS CON ETIQUETAS DE USUARIOS EN STACK OVERFLOW ESPAÑOL")
 print ("*AUSTIN ADRIAN SALGUERO ZAMBRANO")
