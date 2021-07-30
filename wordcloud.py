@@ -15,13 +15,6 @@ lbls = list ()
 nmbrs = list ()
 labels = list ()
 numbers = list ()
-class user:
-    join = join
-    npag = npag
-    lbls = lbls
-    nmbrs = nmbrs
-    labels = labels 
-    numbers = numbers 
 print ("PROYECTO:")
 print ("NUBE DE PALABRAS CON ETIQUETAS DE USUARIOS EN STACK OVERFLOW ESPAÑOL")
 print ("*AUSTIN ADRIAN SALGUERO ZAMBRANO")
